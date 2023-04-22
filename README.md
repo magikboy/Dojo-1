@@ -10,3 +10,8 @@ Sistema de Procesamiento de Datos
 - GARGIULO MUNDO, Camila
 - HRUSZCZAK, Nicolas Gabriel
 - HERMOSILLA, Sebastián Emanuel
+
+
+## Proyecto: semáforos para no videntes.
+
+
