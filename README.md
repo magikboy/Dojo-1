@@ -5,7 +5,7 @@ Sistema de Procesamiento de Datos
 
 
 ## Integrantes 
-- Garcia Martin
+- GARCIA DOTTORI, Martin
 - BOSCO MASCARO, Massimo Ariel
 - GARGIULO MUNDO, Camila
 - HRUSZCZAK, Nicolas Gabriel
