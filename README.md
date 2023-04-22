@@ -38,4 +38,4 @@ nuestra solucion al problema es implementar una serie de bocinas que al momento 
 
 
 ## <img src="https://github.com/magikboy/Dojo-N-mero-Uno/blob/b42c7741a2fb2eaa8a1c813f8f6a0d83be4d35d4/1%20(1).png" alt="Tinkercad" height="32px"> Link al proyecto
-- [proyecto](https://www.tinkercad.com/things/0eFa38B)
+- [proyecto](https://www.tinkercad.com/things/0eFa38BwfAQ-super-migelo-jofo/editel?sharecode=rXB4PgoPveKdescEf7ZKr18V5jzex0wzRh-1nmglAt4)
