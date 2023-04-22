@@ -56,7 +56,6 @@ nuestra solucion al problema es implementar una serie de bocinas que al momento 
 ### Trabajo Practico:
 [Consignas](https://github.com/magikboy/Dojo-N-mero-Uno/blob/18c1342eff3a6e0bedfadace646459866021de35/Dojo%20Numero%20Uno.pdf)
 
-
 ### Fuentes
 - Chat-Gpt
 - Youtube
