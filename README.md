@@ -22,3 +22,20 @@ nuestra solucion al problema es implementar una serie de bocinas que al momento 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## :robot: Link al proyecto
+- [proyecto](https://www.tinkercad.com/things/0eFa38BwfAQ-super-migelo-jofo/editel?sharecode=rXB4PgoPveKdescEf7ZKr18V5jzex0wzRh-1nmglAt4)
