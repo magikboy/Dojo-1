@@ -21,20 +21,33 @@ El gobierno de la cuidad quiere actualizar los semáforos que tienen instalados.
 nuestra solucion al problema es implementar una serie de bocinas que al momento sonaran en el momento que el semaforo se pare en la luz roja haciendo que este emita un sonido continuo adviertiendo a la persona no vidente a detenerse y no cruzar. en el caso de que el semaforo este en la luz amarilla emitir un sonido discontinuo avisando sobre el cambio de luz hacia el verde.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Función principal
+~~~ C++ (lenguaje en el que esta escrito)
+  for (int i = 0 ; i < 30; i++)
+  {
+  	SonarBuzzer(LED_ROJO, 500, 500);
+  }
+  digitalWrite(LED_ROJO, LOW);
+  
+  for (int i = 0 ; i < 2 ; i++)
+  {
+  	SonarBuzzer(LED_AMARILLO, 1000, 2000);
+  }
+  digitalWrite(LED_AMARILLO, LOW);
+  
+  for (int i = 0 ; i < 45 ; i++)
+  {
+  	digitalWrite(LED_VERDE, HIGH);
+    delay(1000);
+  }
+    digitalWrite(LED_VERDE, LOW);
+  
+  for (int i = 0 ; i < 2 ; i++)
+  {
+  	SonarBuzzer(LED_AMARILLO, 1000, 2000);
+  }
+  digitalWrite(LED_AMARILLO, LOW);
+~~~
 
 
 ## <img src="https://github.com/magikboy/Dojo-N-mero-Uno/blob/b42c7741a2fb2eaa8a1c813f8f6a0d83be4d35d4/1%20(1).png" alt="Tinkercad" height="32px"> Link al proyecto
