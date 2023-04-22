@@ -37,5 +37,5 @@ nuestra solucion al problema es implementar una serie de bocinas que al momento 
 
 
 
-## :robot: Link al proyecto
+## :https://github.com/magikboy/Dojo-N-mero-Uno/blob/b42c7741a2fb2eaa8a1c813f8f6a0d83be4d35d4/1%20(1).png: Link al proyecto
 - [proyecto](https://www.tinkercad.com/things/0eFa38BwfAQ-super-migelo-jofo/editel?sharecode=rXB4PgoPveKdescEf7ZKr18V5jzex0wzRh-1nmglAt4)
