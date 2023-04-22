@@ -44,4 +44,4 @@ nuestra solucion al problema es implementar una serie de bocinas que al momento 
 ### Fuentes
 - Chat-Gpt
 - Youtube
-- ![Vladimir Guajardo Gonzalez] (https://www.youtube.com/@SethPonder5/videos)
+- [Vladimir Guajardo Gonzalez](https://www.youtube.com/@SethPonder5/videos)
