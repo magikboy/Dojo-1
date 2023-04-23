@@ -1,4 +1,5 @@
-# Trabajo Practico N°1 - Sistema de Procesamiento de Datos (SPD)
+# Trabajo Practico N°1
+Sistema de Procesamiento de Datos (SPD)
 
 ![Tinkercad](/assets/img/ArduinoTinkercad.jpg)
 
