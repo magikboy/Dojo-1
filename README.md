@@ -50,6 +50,65 @@ nuestra solucion al problema es implementar una serie de bocinas que al momento 
 ~~~
 
 
+## Codigo Completo
+~~~ C++ (lenguaje en el que esta escrito)
+void SonarBuzzer(int led, int frecuencia, int entretiempo); 
+
+#define LED_ROJO 13
+#define LED_AMARILLO 10
+#define LED_VERDE 6
+#define SPEAKER_PIN 4
+
+void SonarBuzzer(int led, int frecuencia, int entretiempo)
+{
+  digitalWrite(led, HIGH); // Prende led indicado
+  tone(SPEAKER_PIN, frecuencia); // Prende el buzzer a una determinada frecuencia
+  delay(500); // Suena el buzzer durante 0.5s
+  noTone(SPEAKER_PIN); // Apaga el buzzer
+  delay(entretiempo); // Aguarda X tiempo indicado por párametro
+}
+
+void setup()
+{
+  pinMode(LED_ROJO, OUTPUT);
+  pinMode(LED_AMARILLO, OUTPUT);
+  pinMode(LED_VERDE, OUTPUT);
+  pinMode(SPEAKER_PIN, OUTPUT);
+}
+
+void loop()
+{
+  for (int i = 0 ; i < 30; i++) // 30seg para el LED rojo
+  {
+  	SonarBuzzer(LED_ROJO, 500, 500); // Suena durante 0.5s y espera 0.5s.
+  }
+  digitalWrite(LED_ROJO, LOW);
+  
+  for (int i = 0 ; i < 2 ; i++) // 2seg para el LED amarillo
+  {
+  	SonarBuzzer(LED_AMARILLO, 1000, 2000); // Suena con otra frecuencia y tiene un delay de 2seg
+  }
+  digitalWrite(LED_AMARILLO, LOW);
+  
+  for (int i = 0 ; i < 45 ; i++) // 45seg para el LED verde
+  {
+  	digitalWrite(LED_VERDE, HIGH);
+    delay(1000);
+  }
+    digitalWrite(LED_VERDE, LOW);
+  
+  for (int i = 0 ; i < 2 ; i++) // 2seg para el LED amarillo
+  {
+  	SonarBuzzer(LED_AMARILLO, 1000, 2000); // Suena 1 sóla vez
+  }
+  digitalWrite(LED_AMARILLO, LOW);
+}
+~~~
+
+
+
+
+
 ## <img src="https://github.com/magikboy/Dojo-N-mero-Uno/blob/b42c7741a2fb2eaa8a1c813f8f6a0d83be4d35d4/1%20(1).png" alt="Tinkercad" height="32px"> Link al proyecto
 - [Proyecto](https://www.tinkercad.com/things/0eFa38BwfAQ-super-migelo-jofo/editel?sharecode=rXB4PgoPveKdescEf7ZKr18V5jzex0wzRh-1nmglAt4)
 
